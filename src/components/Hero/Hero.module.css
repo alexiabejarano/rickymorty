@@ -1,0 +1,16 @@
+.hero {
+    background-image: url("../../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    color: #0f0;
+    font-family: Made;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.search-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}

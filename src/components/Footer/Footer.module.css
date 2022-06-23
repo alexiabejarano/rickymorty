@@ -1,0 +1,24 @@
+footer
+{
+  background-color: #000;
+  color: #1efc06;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  font-family: Made;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.social-media
+{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-self: end;
+}
+
+.top-gradient-border {
+    border-top: 0.1rem solid;
+    border-image: linear-gradient(-90deg, #0115d8, #03ddff, #1efc06, #03ddff, #0115d8) 1;
+  }
